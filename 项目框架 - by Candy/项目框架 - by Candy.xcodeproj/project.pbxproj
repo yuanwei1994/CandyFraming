@@ -1,0 +1,1090 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		362F6AB61E24B83800991706 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 362F6AB51E24B83800991706 /* UserModel.m */; };
+		3657E5651E1E1D5C0079C0C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657E5641E1E1D5C0079C0C7 /* main.m */; };
+		3657E5681E1E1D5C0079C0C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657E5671E1E1D5C0079C0C7 /* AppDelegate.m */; };
+		3657E56B1E1E1D5C0079C0C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657E56A1E1E1D5C0079C0C7 /* ViewController.m */; };
+		3657E56E1E1E1D5C0079C0C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3657E56C1E1E1D5C0079C0C7 /* Main.storyboard */; };
+		3657E5701E1E1D5C0079C0C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3657E56F1E1E1D5C0079C0C7 /* Assets.xcassets */; };
+		3657E5731E1E1D5C0079C0C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3657E5711E1E1D5C0079C0C7 /* LaunchScreen.storyboard */; };
+		3657E57E1E1E1D5C0079C0C7 /* _______by_CandyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657E57D1E1E1D5C0079C0C7 /* _______by_CandyTests.m */; };
+		3657E5891E1E1D5C0079C0C7 /* _______by_CandyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657E5881E1E1D5C0079C0C7 /* _______by_CandyUITests.m */; };
+		3657E5B41E1E21E30079C0C7 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657E5B31E1E21E30079C0C7 /* MainTabBarController.m */; };
+		3657E5BA1E1E22D90079C0C7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657E5B91E1E22D90079C0C7 /* HomeViewController.m */; };
+		3657E5C11E1E23790079C0C7 /* SchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657E5C01E1E23790079C0C7 /* SchoolViewController.m */; };
+		3657E5C41E1E238F0079C0C7 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657E5C31E1E238F0079C0C7 /* MessageViewController.m */; };
+		3657E5CB1E1E24460079C0C7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657E5CA1E1E24460079C0C7 /* BaseViewController.m */; };
+		366C19A41E20BB6D00CF38AB /* menu_home_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 366C199C1E20BB6D00CF38AB /* menu_home_normal@3x.png */; };
+		366C19A51E20BB6D00CF38AB /* menu_home_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 366C199D1E20BB6D00CF38AB /* menu_home_selected@3x.png */; };
+		366C19A61E20BB6D00CF38AB /* menu_interactive_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 366C199E1E20BB6D00CF38AB /* menu_interactive_normal@3x.png */; };
+		366C19A71E20BB6D00CF38AB /* menu_interactive_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 366C199F1E20BB6D00CF38AB /* menu_interactive_selected@3x.png */; };
+		366C19A81E20BB6D00CF38AB /* menu_mine_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 366C19A01E20BB6D00CF38AB /* menu_mine_normal@3x.png */; };
+		366C19A91E20BB6D00CF38AB /* menu_mine_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 366C19A11E20BB6D00CF38AB /* menu_mine_selected@3x.png */; };
+		366C19AA1E20BB6D00CF38AB /* menu_school_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 366C19A21E20BB6D00CF38AB /* menu_school_normal@3x.png */; };
+		366C19AB1E20BB6D00CF38AB /* menu_school_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 366C19A31E20BB6D00CF38AB /* menu_school_selected@3x.png */; };
+		367E38541E1F2CAB00F61F85 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367E38511E1F2CAB00F61F85 /* MineViewController.m */; };
+		36C4D0C91E1E421C003649D4 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C4D0C81E1E421C003649D4 /* Response.m */; };
+		36C4D0D11E1E4BBD003649D4 /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C4D0D01E1E4BBD003649D4 /* NetworkRequest.m */; };
+		3E794CFF6DE52A58BEFE8F93 /* libPods-项目框架 - by Candy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20DCCBD93E5A23267C792E /* libPods-项目框架 - by Candy.a */; };
+		CF7ACAD1096D7E94A5BA08AD /* libPods-项目框架 - by CandyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8196D0F4817F25C13E6665FD /* libPods-项目框架 - by CandyTests.a */; };
+		F42921100C076702292C6C94 /* libPods-项目框架 - by CandyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5E7E319755A5563316FB /* libPods-项目框架 - by CandyUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3657E57A1E1E1D5C0079C0C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3657E5581E1E1D5C0079C0C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3657E55F1E1E1D5C0079C0C7;
+			remoteInfo = "项目框架 - by Candy";
+		};
+		3657E5851E1E1D5C0079C0C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3657E5581E1E1D5C0079C0C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3657E55F1E1E1D5C0079C0C7;
+			remoteInfo = "项目框架 - by Candy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		305D5E7E319755A5563316FB /* libPods-项目框架 - by CandyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-项目框架 - by CandyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		362F6AB41E24B83800991706 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		362F6AB51E24B83800991706 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		3657E5601E1E1D5C0079C0C7 /* 项目框架 - by Candy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "项目框架 - by Candy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3657E5641E1E1D5C0079C0C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3657E5661E1E1D5C0079C0C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3657E5671E1E1D5C0079C0C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3657E5691E1E1D5C0079C0C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3657E56A1E1E1D5C0079C0C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3657E56D1E1E1D5C0079C0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3657E56F1E1E1D5C0079C0C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3657E5721E1E1D5C0079C0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3657E5741E1E1D5C0079C0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3657E5791E1E1D5C0079C0C7 /* 项目框架 - by CandyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "项目框架 - by CandyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3657E57D1E1E1D5C0079C0C7 /* _______by_CandyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______by_CandyTests.m"; sourceTree = "<group>"; };
+		3657E57F1E1E1D5C0079C0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3657E5841E1E1D5C0079C0C7 /* 项目框架 - by CandyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "项目框架 - by CandyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3657E5881E1E1D5C0079C0C7 /* _______by_CandyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______by_CandyUITests.m"; sourceTree = "<group>"; };
+		3657E58A1E1E1D5C0079C0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3657E5B21E1E21E30079C0C7 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		3657E5B31E1E21E30079C0C7 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		3657E5B81E1E22D90079C0C7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3657E5B91E1E22D90079C0C7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3657E5BF1E1E23790079C0C7 /* SchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolViewController.h; sourceTree = "<group>"; };
+		3657E5C01E1E23790079C0C7 /* SchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolViewController.m; sourceTree = "<group>"; };
+		3657E5C21E1E238F0079C0C7 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		3657E5C31E1E238F0079C0C7 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		3657E5C91E1E24460079C0C7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3657E5CA1E1E24460079C0C7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3657E5CE1E1E25E50079C0C7 /* Adaption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adaption.h; sourceTree = "<group>"; };
+		3657E5CF1E1E26000079C0C7 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		3657E5D21E1E293D0079C0C7 /* PrefixHeaderPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeaderPCH.pch; sourceTree = "<group>"; };
+		366C199C1E20BB6D00CF38AB /* menu_home_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_home_normal@3x.png"; sourceTree = "<group>"; };
+		366C199D1E20BB6D00CF38AB /* menu_home_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_home_selected@3x.png"; sourceTree = "<group>"; };
+		366C199E1E20BB6D00CF38AB /* menu_interactive_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_interactive_normal@3x.png"; sourceTree = "<group>"; };
+		366C199F1E20BB6D00CF38AB /* menu_interactive_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_interactive_selected@3x.png"; sourceTree = "<group>"; };
+		366C19A01E20BB6D00CF38AB /* menu_mine_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_mine_normal@3x.png"; sourceTree = "<group>"; };
+		366C19A11E20BB6D00CF38AB /* menu_mine_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_mine_selected@3x.png"; sourceTree = "<group>"; };
+		366C19A21E20BB6D00CF38AB /* menu_school_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_school_normal@3x.png"; sourceTree = "<group>"; };
+		366C19A31E20BB6D00CF38AB /* menu_school_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_school_selected@3x.png"; sourceTree = "<group>"; };
+		367E38501E1F2CAB00F61F85 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		367E38511E1F2CAB00F61F85 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		36C4D0C71E1E421C003649D4 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		36C4D0C81E1E421C003649D4 /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		36C4D0CD1E1E428B003649D4 /* RequestURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestURL.h; sourceTree = "<group>"; };
+		36C4D0CF1E1E4BBD003649D4 /* NetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
+		36C4D0D01E1E4BBD003649D4 /* NetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
+		46C6C1C68098026FFE281B34 /* Pods-项目框架 - by Candy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-项目框架 - by Candy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-项目框架 - by Candy/Pods-项目框架 - by Candy.debug.xcconfig"; sourceTree = "<group>"; };
+		5867C9B2232C7CB9DDED92D0 /* Pods-项目框架 - by Candy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-项目框架 - by Candy.release.xcconfig"; path = "Pods/Target Support Files/Pods-项目框架 - by Candy/Pods-项目框架 - by Candy.release.xcconfig"; sourceTree = "<group>"; };
+		8196D0F4817F25C13E6665FD /* libPods-项目框架 - by CandyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-项目框架 - by CandyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D20DCCBD93E5A23267C792E /* libPods-项目框架 - by Candy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-项目框架 - by Candy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A452E0BCC7EE4F6824C23CD9 /* Pods-项目框架 - by CandyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-项目框架 - by CandyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-项目框架 - by CandyTests/Pods-项目框架 - by CandyTests.release.xcconfig"; sourceTree = "<group>"; };
+		D885C42AF8993174AA554D8F /* Pods-项目框架 - by CandyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-项目框架 - by CandyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-项目框架 - by CandyUITests/Pods-项目框架 - by CandyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE7F538CECA3AB51E10922AF /* Pods-项目框架 - by CandyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-项目框架 - by CandyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-项目框架 - by CandyTests/Pods-项目框架 - by CandyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC87FFE36FCE3CD4FA077089 /* Pods-项目框架 - by CandyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-项目框架 - by CandyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-项目框架 - by CandyUITests/Pods-项目框架 - by CandyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3657E55D1E1E1D5C0079C0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E794CFF6DE52A58BEFE8F93 /* libPods-项目框架 - by Candy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3657E5761E1E1D5C0079C0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7ACAD1096D7E94A5BA08AD /* libPods-项目框架 - by CandyTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3657E5811E1E1D5C0079C0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42921100C076702292C6C94 /* libPods-项目框架 - by CandyUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130B8496F84F2368F8ADE13D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D20DCCBD93E5A23267C792E /* libPods-项目框架 - by Candy.a */,
+				8196D0F4817F25C13E6665FD /* libPods-项目框架 - by CandyTests.a */,
+				305D5E7E319755A5563316FB /* libPods-项目框架 - by CandyUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3657E5571E1E1D5C0079C0C7 = {
+			isa = PBXGroup;
+			children = (
+				3657E5621E1E1D5C0079C0C7 /* 项目框架 - by Candy */,
+				3657E57C1E1E1D5C0079C0C7 /* 项目框架 - by CandyTests */,
+				3657E5871E1E1D5C0079C0C7 /* 项目框架 - by CandyUITests */,
+				3657E5611E1E1D5C0079C0C7 /* Products */,
+				E397FED446CD20113CCED56C /* Pods */,
+				130B8496F84F2368F8ADE13D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3657E5611E1E1D5C0079C0C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5601E1E1D5C0079C0C7 /* 项目框架 - by Candy.app */,
+				3657E5791E1E1D5C0079C0C7 /* 项目框架 - by CandyTests.xctest */,
+				3657E5841E1E1D5C0079C0C7 /* 项目框架 - by CandyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3657E5621E1E1D5C0079C0C7 /* 项目框架 - by Candy */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5971E1E1F390079C0C7 /* 框架部分 */,
+				3657E59E1E1E1F390079C0C7 /* 模块部分 */,
+				3657E5AF1E1E1F390079C0C7 /* 资源部分 */,
+				3657E5961E1E1ED50079C0C7 /* 系统部分 */,
+				3657E5631E1E1D5C0079C0C7 /* Supporting Files */,
+			);
+			path = "项目框架 - by Candy";
+			sourceTree = "<group>";
+		};
+		3657E5631E1E1D5C0079C0C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5641E1E1D5C0079C0C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3657E57C1E1E1D5C0079C0C7 /* 项目框架 - by CandyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3657E57D1E1E1D5C0079C0C7 /* _______by_CandyTests.m */,
+				3657E57F1E1E1D5C0079C0C7 /* Info.plist */,
+			);
+			path = "项目框架 - by CandyTests";
+			sourceTree = "<group>";
+		};
+		3657E5871E1E1D5C0079C0C7 /* 项目框架 - by CandyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5881E1E1D5C0079C0C7 /* _______by_CandyUITests.m */,
+				3657E58A1E1E1D5C0079C0C7 /* Info.plist */,
+			);
+			path = "项目框架 - by CandyUITests";
+			sourceTree = "<group>";
+		};
+		3657E5961E1E1ED50079C0C7 /* 系统部分 */ = {
+			isa = PBXGroup;
+			children = (
+				3657E56F1E1E1D5C0079C0C7 /* Assets.xcassets */,
+				3657E5661E1E1D5C0079C0C7 /* AppDelegate.h */,
+				3657E5671E1E1D5C0079C0C7 /* AppDelegate.m */,
+				3657E5691E1E1D5C0079C0C7 /* ViewController.h */,
+				3657E56A1E1E1D5C0079C0C7 /* ViewController.m */,
+				3657E56C1E1E1D5C0079C0C7 /* Main.storyboard */,
+				3657E5711E1E1D5C0079C0C7 /* LaunchScreen.storyboard */,
+				3657E5741E1E1D5C0079C0C7 /* Info.plist */,
+			);
+			name = "系统部分";
+			sourceTree = "<group>";
+		};
+		3657E5971E1E1F390079C0C7 /* 框架部分 */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5981E1E1F390079C0C7 /* Common(共用部分) */,
+				3657E59B1E1E1F390079C0C7 /* Custom(自定义部分) */,
+			);
+			path = "框架部分";
+			sourceTree = "<group>";
+		};
+		3657E5981E1E1F390079C0C7 /* Common(共用部分) */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5B11E1E21440079C0C7 /* (Main)主框架 */,
+				3657E5991E1E1F390079C0C7 /* MacroDefine(宏定义) */,
+				3657E59A1E1E1F390079C0C7 /* Networking(网络请求) */,
+				3657E5CD1E1E24CE0079C0C7 /* Precompile(预编译文件) */,
+			);
+			path = "Common(共用部分)";
+			sourceTree = "<group>";
+		};
+		3657E5991E1E1F390079C0C7 /* MacroDefine(宏定义) */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5CE1E1E25E50079C0C7 /* Adaption.h */,
+				3657E5CF1E1E26000079C0C7 /* Config.h */,
+				36C4D0CD1E1E428B003649D4 /* RequestURL.h */,
+			);
+			path = "MacroDefine(宏定义)";
+			sourceTree = "<group>";
+		};
+		3657E59A1E1E1F390079C0C7 /* Networking(网络请求) */ = {
+			isa = PBXGroup;
+			children = (
+				36C4D0C71E1E421C003649D4 /* Response.h */,
+				36C4D0C81E1E421C003649D4 /* Response.m */,
+				36C4D0CF1E1E4BBD003649D4 /* NetworkRequest.h */,
+				36C4D0D01E1E4BBD003649D4 /* NetworkRequest.m */,
+			);
+			path = "Networking(网络请求)";
+			sourceTree = "<group>";
+		};
+		3657E59B1E1E1F390079C0C7 /* Custom(自定义部分) */ = {
+			isa = PBXGroup;
+			children = (
+				3657E59C1E1E1F390079C0C7 /* Control(自定义控件) */,
+				3657E5C81E1E24460079C0C7 /* Controller(控制器)  */,
+			);
+			path = "Custom(自定义部分)";
+			sourceTree = "<group>";
+		};
+		3657E59C1E1E1F390079C0C7 /* Control(自定义控件) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Control(自定义控件)";
+			sourceTree = "<group>";
+		};
+		3657E59E1E1E1F390079C0C7 /* 模块部分 */ = {
+			isa = PBXGroup;
+			children = (
+				3657E59F1E1E1F390079C0C7 /* Home(首页) */,
+				3657E5AB1E1E1F390079C0C7 /* School(学校) */,
+				3657E5A31E1E1F390079C0C7 /* Message(消息) */,
+				367E384E1E1F2CAB00F61F85 /* Mine(我的) */,
+			);
+			path = "模块部分";
+			sourceTree = "<group>";
+		};
+		3657E59F1E1E1F390079C0C7 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5A01E1E1F390079C0C7 /* Controller */,
+				3657E5A11E1E1F390079C0C7 /* Model */,
+				3657E5A21E1E1F390079C0C7 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		3657E5A01E1E1F390079C0C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5B81E1E22D90079C0C7 /* HomeViewController.h */,
+				3657E5B91E1E22D90079C0C7 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3657E5A11E1E1F390079C0C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3657E5A21E1E1F390079C0C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3657E5A31E1E1F390079C0C7 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5A41E1E1F390079C0C7 /* Controller */,
+				3657E5A51E1E1F390079C0C7 /* Model */,
+				3657E5A61E1E1F390079C0C7 /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		3657E5A41E1E1F390079C0C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5C21E1E238F0079C0C7 /* MessageViewController.h */,
+				3657E5C31E1E238F0079C0C7 /* MessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3657E5A51E1E1F390079C0C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3657E5A61E1E1F390079C0C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3657E5AB1E1E1F390079C0C7 /* School(学校) */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5AC1E1E1F390079C0C7 /* Controller */,
+				3657E5AD1E1E1F390079C0C7 /* Model */,
+				3657E5AE1E1E1F390079C0C7 /* View */,
+			);
+			path = "School(学校)";
+			sourceTree = "<group>";
+		};
+		3657E5AC1E1E1F390079C0C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5BF1E1E23790079C0C7 /* SchoolViewController.h */,
+				3657E5C01E1E23790079C0C7 /* SchoolViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3657E5AD1E1E1F390079C0C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3657E5AE1E1E1F390079C0C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3657E5AF1E1E1F390079C0C7 /* 资源部分 */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5B01E1E1F390079C0C7 /* ThirdLib(第三方框架) */,
+				366C199A1E20BB6D00CF38AB /* 图片素材 */,
+			);
+			path = "资源部分";
+			sourceTree = "<group>";
+		};
+		3657E5B01E1E1F390079C0C7 /* ThirdLib(第三方框架) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ThirdLib(第三方框架)";
+			sourceTree = "<group>";
+		};
+		3657E5B11E1E21440079C0C7 /* (Main)主框架 */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5B21E1E21E30079C0C7 /* MainTabBarController.h */,
+				3657E5B31E1E21E30079C0C7 /* MainTabBarController.m */,
+			);
+			path = "(Main)主框架";
+			sourceTree = "<group>";
+		};
+		3657E5C81E1E24460079C0C7 /* Controller(控制器)  */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5C91E1E24460079C0C7 /* BaseViewController.h */,
+				3657E5CA1E1E24460079C0C7 /* BaseViewController.m */,
+			);
+			path = "Controller(控制器) ";
+			sourceTree = "<group>";
+		};
+		3657E5CD1E1E24CE0079C0C7 /* Precompile(预编译文件) */ = {
+			isa = PBXGroup;
+			children = (
+				3657E5D21E1E293D0079C0C7 /* PrefixHeaderPCH.pch */,
+			);
+			path = "Precompile(预编译文件)";
+			sourceTree = "<group>";
+		};
+		366C199A1E20BB6D00CF38AB /* 图片素材 */ = {
+			isa = PBXGroup;
+			children = (
+				366C199B1E20BB6D00CF38AB /* 标签控制器 */,
+			);
+			path = "图片素材";
+			sourceTree = "<group>";
+		};
+		366C199B1E20BB6D00CF38AB /* 标签控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				366C199C1E20BB6D00CF38AB /* menu_home_normal@3x.png */,
+				366C199D1E20BB6D00CF38AB /* menu_home_selected@3x.png */,
+				366C199E1E20BB6D00CF38AB /* menu_interactive_normal@3x.png */,
+				366C199F1E20BB6D00CF38AB /* menu_interactive_selected@3x.png */,
+				366C19A01E20BB6D00CF38AB /* menu_mine_normal@3x.png */,
+				366C19A11E20BB6D00CF38AB /* menu_mine_selected@3x.png */,
+				366C19A21E20BB6D00CF38AB /* menu_school_normal@3x.png */,
+				366C19A31E20BB6D00CF38AB /* menu_school_selected@3x.png */,
+			);
+			path = "标签控制器";
+			sourceTree = "<group>";
+		};
+		367E384E1E1F2CAB00F61F85 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				367E384F1E1F2CAB00F61F85 /* Controller */,
+				367E38521E1F2CAB00F61F85 /* Model */,
+				367E38531E1F2CAB00F61F85 /* View */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		367E384F1E1F2CAB00F61F85 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				367E38501E1F2CAB00F61F85 /* MineViewController.h */,
+				367E38511E1F2CAB00F61F85 /* MineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		367E38521E1F2CAB00F61F85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				362F6AB41E24B83800991706 /* UserModel.h */,
+				362F6AB51E24B83800991706 /* UserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		367E38531E1F2CAB00F61F85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E397FED446CD20113CCED56C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46C6C1C68098026FFE281B34 /* Pods-项目框架 - by Candy.debug.xcconfig */,
+				5867C9B2232C7CB9DDED92D0 /* Pods-项目框架 - by Candy.release.xcconfig */,
+				DE7F538CECA3AB51E10922AF /* Pods-项目框架 - by CandyTests.debug.xcconfig */,
+				A452E0BCC7EE4F6824C23CD9 /* Pods-项目框架 - by CandyTests.release.xcconfig */,
+				EC87FFE36FCE3CD4FA077089 /* Pods-项目框架 - by CandyUITests.debug.xcconfig */,
+				D885C42AF8993174AA554D8F /* Pods-项目框架 - by CandyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3657E55F1E1E1D5C0079C0C7 /* 项目框架 - by Candy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3657E58D1E1E1D5C0079C0C7 /* Build configuration list for PBXNativeTarget "项目框架 - by Candy" */;
+			buildPhases = (
+				DF7A3B995D9409EDFB26AE0F /* [CP] Check Pods Manifest.lock */,
+				3657E55C1E1E1D5C0079C0C7 /* Sources */,
+				3657E55D1E1E1D5C0079C0C7 /* Frameworks */,
+				3657E55E1E1E1D5C0079C0C7 /* Resources */,
+				6CCF9C1ADC9E4FB59DA1ABB0 /* [CP] Embed Pods Frameworks */,
+				FF384A6BB003B52D4157CF59 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "项目框架 - by Candy";
+			productName = "项目框架 - by Candy";
+			productReference = 3657E5601E1E1D5C0079C0C7 /* 项目框架 - by Candy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3657E5781E1E1D5C0079C0C7 /* 项目框架 - by CandyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3657E5901E1E1D5C0079C0C7 /* Build configuration list for PBXNativeTarget "项目框架 - by CandyTests" */;
+			buildPhases = (
+				A0F58108873FEC28BC788C34 /* [CP] Check Pods Manifest.lock */,
+				3657E5751E1E1D5C0079C0C7 /* Sources */,
+				3657E5761E1E1D5C0079C0C7 /* Frameworks */,
+				3657E5771E1E1D5C0079C0C7 /* Resources */,
+				E25AA698F74899730ED3FF86 /* [CP] Embed Pods Frameworks */,
+				982B4BB9672B8E9277B76EF0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3657E57B1E1E1D5C0079C0C7 /* PBXTargetDependency */,
+			);
+			name = "项目框架 - by CandyTests";
+			productName = "项目框架 - by CandyTests";
+			productReference = 3657E5791E1E1D5C0079C0C7 /* 项目框架 - by CandyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3657E5831E1E1D5C0079C0C7 /* 项目框架 - by CandyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3657E5931E1E1D5C0079C0C7 /* Build configuration list for PBXNativeTarget "项目框架 - by CandyUITests" */;
+			buildPhases = (
+				71C87844E34641C285F745CA /* [CP] Check Pods Manifest.lock */,
+				3657E5801E1E1D5C0079C0C7 /* Sources */,
+				3657E5811E1E1D5C0079C0C7 /* Frameworks */,
+				3657E5821E1E1D5C0079C0C7 /* Resources */,
+				A98823550AC2300CB08FA545 /* [CP] Embed Pods Frameworks */,
+				55BA7921AD0C1816EE4D89B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3657E5861E1E1D5C0079C0C7 /* PBXTargetDependency */,
+			);
+			name = "项目框架 - by CandyUITests";
+			productName = "项目框架 - by CandyUITests";
+			productReference = 3657E5841E1E1D5C0079C0C7 /* 项目框架 - by CandyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3657E5581E1E1D5C0079C0C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Candy;
+				TargetAttributes = {
+					3657E55F1E1E1D5C0079C0C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BYAE8N7CDV;
+						ProvisioningStyle = Automatic;
+					};
+					3657E5781E1E1D5C0079C0C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4K988BA25S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3657E55F1E1E1D5C0079C0C7;
+					};
+					3657E5831E1E1D5C0079C0C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4K988BA25S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3657E55F1E1E1D5C0079C0C7;
+					};
+				};
+			};
+			buildConfigurationList = 3657E55B1E1E1D5C0079C0C7 /* Build configuration list for PBXProject "项目框架 - by Candy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3657E5571E1E1D5C0079C0C7;
+			productRefGroup = 3657E5611E1E1D5C0079C0C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3657E55F1E1E1D5C0079C0C7 /* 项目框架 - by Candy */,
+				3657E5781E1E1D5C0079C0C7 /* 项目框架 - by CandyTests */,
+				3657E5831E1E1D5C0079C0C7 /* 项目框架 - by CandyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3657E55E1E1E1D5C0079C0C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366C19A61E20BB6D00CF38AB /* menu_interactive_normal@3x.png in Resources */,
+				366C19AB1E20BB6D00CF38AB /* menu_school_selected@3x.png in Resources */,
+				366C19AA1E20BB6D00CF38AB /* menu_school_normal@3x.png in Resources */,
+				366C19A71E20BB6D00CF38AB /* menu_interactive_selected@3x.png in Resources */,
+				366C19A81E20BB6D00CF38AB /* menu_mine_normal@3x.png in Resources */,
+				3657E5731E1E1D5C0079C0C7 /* LaunchScreen.storyboard in Resources */,
+				366C19A51E20BB6D00CF38AB /* menu_home_selected@3x.png in Resources */,
+				3657E5701E1E1D5C0079C0C7 /* Assets.xcassets in Resources */,
+				366C19A41E20BB6D00CF38AB /* menu_home_normal@3x.png in Resources */,
+				3657E56E1E1E1D5C0079C0C7 /* Main.storyboard in Resources */,
+				366C19A91E20BB6D00CF38AB /* menu_mine_selected@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3657E5771E1E1D5C0079C0C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3657E5821E1E1D5C0079C0C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55BA7921AD0C1816EE4D89B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-项目框架 - by CandyUITests/Pods-项目框架 - by CandyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CCF9C1ADC9E4FB59DA1ABB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-项目框架 - by Candy/Pods-项目框架 - by Candy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71C87844E34641C285F745CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		982B4BB9672B8E9277B76EF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-项目框架 - by CandyTests/Pods-项目框架 - by CandyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F58108873FEC28BC788C34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A98823550AC2300CB08FA545 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-项目框架 - by CandyUITests/Pods-项目框架 - by CandyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF7A3B995D9409EDFB26AE0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E25AA698F74899730ED3FF86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-项目框架 - by CandyTests/Pods-项目框架 - by CandyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF384A6BB003B52D4157CF59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-项目框架 - by Candy/Pods-项目框架 - by Candy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3657E55C1E1E1D5C0079C0C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3657E56B1E1E1D5C0079C0C7 /* ViewController.m in Sources */,
+				3657E5CB1E1E24460079C0C7 /* BaseViewController.m in Sources */,
+				362F6AB61E24B83800991706 /* UserModel.m in Sources */,
+				36C4D0C91E1E421C003649D4 /* Response.m in Sources */,
+				3657E5681E1E1D5C0079C0C7 /* AppDelegate.m in Sources */,
+				3657E5B41E1E21E30079C0C7 /* MainTabBarController.m in Sources */,
+				367E38541E1F2CAB00F61F85 /* MineViewController.m in Sources */,
+				36C4D0D11E1E4BBD003649D4 /* NetworkRequest.m in Sources */,
+				3657E5651E1E1D5C0079C0C7 /* main.m in Sources */,
+				3657E5C11E1E23790079C0C7 /* SchoolViewController.m in Sources */,
+				3657E5C41E1E238F0079C0C7 /* MessageViewController.m in Sources */,
+				3657E5BA1E1E22D90079C0C7 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3657E5751E1E1D5C0079C0C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3657E57E1E1E1D5C0079C0C7 /* _______by_CandyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3657E5801E1E1D5C0079C0C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3657E5891E1E1D5C0079C0C7 /* _______by_CandyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3657E57B1E1E1D5C0079C0C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3657E55F1E1E1D5C0079C0C7 /* 项目框架 - by Candy */;
+			targetProxy = 3657E57A1E1E1D5C0079C0C7 /* PBXContainerItemProxy */;
+		};
+		3657E5861E1E1D5C0079C0C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3657E55F1E1E1D5C0079C0C7 /* 项目框架 - by Candy */;
+			targetProxy = 3657E5851E1E1D5C0079C0C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3657E56C1E1E1D5C0079C0C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3657E56D1E1E1D5C0079C0C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3657E5711E1E1D5C0079C0C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3657E5721E1E1D5C0079C0C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3657E58B1E1E1D5C0079C0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "项目框架 - by Candy/框架部分/Common(共用部分)/Precompile(预编译文件)/PrefixHeaderPCH.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3657E58C1E1E1D5C0079C0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "项目框架 - by Candy/框架部分/Common(共用部分)/Precompile(预编译文件)/PrefixHeaderPCH.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3657E58E1E1E1D5C0079C0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C6C1C68098026FFE281B34 /* Pods-项目框架 - by Candy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BYAE8N7CDV;
+				GCC_PREFIX_HEADER = "项目框架 - by Candy/框架部分/Common(共用部分)/Precompile(预编译文件)/PrefixHeaderPCH.pch";
+				INFOPLIST_FILE = "项目框架 - by Candy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.90candy.-------by-Candy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3657E58F1E1E1D5C0079C0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5867C9B2232C7CB9DDED92D0 /* Pods-项目框架 - by Candy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BYAE8N7CDV;
+				GCC_PREFIX_HEADER = "项目框架 - by Candy/框架部分/Common(共用部分)/Precompile(预编译文件)/PrefixHeaderPCH.pch";
+				INFOPLIST_FILE = "项目框架 - by Candy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.90candy.-------by-Candy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3657E5911E1E1D5C0079C0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7F538CECA3AB51E10922AF /* Pods-项目框架 - by CandyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4K988BA25S;
+				INFOPLIST_FILE = "项目框架 - by CandyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.90candy.-------by-CandyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/项目框架 - by Candy.app/项目框架 - by Candy";
+			};
+			name = Debug;
+		};
+		3657E5921E1E1D5C0079C0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A452E0BCC7EE4F6824C23CD9 /* Pods-项目框架 - by CandyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4K988BA25S;
+				INFOPLIST_FILE = "项目框架 - by CandyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.90candy.-------by-CandyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/项目框架 - by Candy.app/项目框架 - by Candy";
+			};
+			name = Release;
+		};
+		3657E5941E1E1D5C0079C0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC87FFE36FCE3CD4FA077089 /* Pods-项目框架 - by CandyUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4K988BA25S;
+				INFOPLIST_FILE = "项目框架 - by CandyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.90candy.-------by-CandyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "项目框架 - by Candy";
+			};
+			name = Debug;
+		};
+		3657E5951E1E1D5C0079C0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D885C42AF8993174AA554D8F /* Pods-项目框架 - by CandyUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4K988BA25S;
+				INFOPLIST_FILE = "项目框架 - by CandyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.90candy.-------by-CandyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "项目框架 - by Candy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3657E55B1E1E1D5C0079C0C7 /* Build configuration list for PBXProject "项目框架 - by Candy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3657E58B1E1E1D5C0079C0C7 /* Debug */,
+				3657E58C1E1E1D5C0079C0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3657E58D1E1E1D5C0079C0C7 /* Build configuration list for PBXNativeTarget "项目框架 - by Candy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3657E58E1E1E1D5C0079C0C7 /* Debug */,
+				3657E58F1E1E1D5C0079C0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3657E5901E1E1D5C0079C0C7 /* Build configuration list for PBXNativeTarget "项目框架 - by CandyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3657E5911E1E1D5C0079C0C7 /* Debug */,
+				3657E5921E1E1D5C0079C0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3657E5931E1E1D5C0079C0C7 /* Build configuration list for PBXNativeTarget "项目框架 - by CandyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3657E5941E1E1D5C0079C0C7 /* Debug */,
+				3657E5951E1E1D5C0079C0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3657E5581E1E1D5C0079C0C7 /* Project object */;
+}
